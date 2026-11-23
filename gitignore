@@ -1,0 +1,24 @@
+# Secrets (never commit)
+kaggle.json
+.env
+
+# Models and weights (large files)
+*.keras
+*.h5
+*.weights.h5
+
+# Datasets and local test photos
+data/
+datasets/
+field_images/
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
