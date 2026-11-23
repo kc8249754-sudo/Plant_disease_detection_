@@ -37,9 +37,9 @@ The dataset is not included in this repository. The notebook downloads it automa
 The baseline's validation curve was unstable (large dips at several epochs), while fine-tuned EfficientNetB0 improved smoothly. Validation accuracy rose steadily during fine-tuning and reached about 97.7%.
 
 ### Figures
-![Learning curves](images/learning_curves.png)
-![Confusion matrix](images/confusion_matrix.png)
-![Grad-CAM](images/gradcam.png)
+![Baseline learning curves](baseline%20CNN%20accuracy%20loss.png)
+![Confusion matrix](Normalized%20confusion%20matrix.png)
+![Grad-CAM heatmaps](correct%20prediction.png)
 
 ## Error analysis
 Most classes score F1 of 0.97 or higher. The weakest classes (EfficientNetB0):
